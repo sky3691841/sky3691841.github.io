@@ -1,0 +1,92 @@
+#container h1 {
+	background-color: teal;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+h1 {
+	margin-top: 5%;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.todo {
+	background-color: white;
+	height: 60px;
+	line-height: 60px;
+	color: #666;
+}
+
+.todo:hover .hid {
+	width: 60px;
+	opacity: 1.0;
+}
+
+.hid {
+	background-color: #e74c3c;
+	height: 60px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+#photo {
+	background-color: #1C2331;
+}
+
+
+input {
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: #2980b9;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus {
+	background-color: white;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+#container {
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	background-color: #f7f7f7;
+	margin-bottom: 30px;
+}
+
+.fa-pencil-alt {
+	float: right;
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+
+.btn {
+	float:right;
+}
+
+img {
+	height:140px;
+	width: 200px;
+}
+
+.mt-3 {
+	padding-left: 20px;
+}

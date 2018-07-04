@@ -1,0 +1,22 @@
+.view {
+    background: url("http://s15.sinaimg.cn/mw690/002QLAZTzy73GRAmyVE6e&690")no-repeat center center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+
+h1 {
+	font-size: 4em;
+	color: white;
+}
+
+.card-body {
+	width:30%;
+	margin: 50px auto;
+	border: 2px solid teal;
+}

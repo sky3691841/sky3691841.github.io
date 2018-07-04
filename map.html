@@ -10,7 +10,7 @@
 	<!-- Material Design Bootstrap -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
 	<!--My CSS-->
-	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/map.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/nav.css">
 </head>
 
@@ -19,8 +19,6 @@
 	<html lang="en" class="full-height">
 
 	<!--Main Navigation-->
-	<header>
-
 	    <nav class="navbar sticky-top navbar-expand-lg navbar-dark teal darken-1">
 	        <div class="container">
 	            <a class="navbar-brand mx-auto" href="index.html"><i class="fas fa-umbrella-beach"></i><strong> 亞庇</strong></a>
@@ -42,65 +40,22 @@
 	                        <a class="nav-link" href="buy.html">buy</a>
 	                    </li>
 	                    <li class="nav-item">
-	                        <a class="nav-link" href="map.html">map</a>
+	                        <a class="nav-link selected" href="map.html">map</a>
 	                    </li>
 	                </ul>
 	            </div>
 	        </div>
 	    </nav>
-
-	    <div class="view intro-2">
-	        <div class="full-bg-img">
-	            <div class="mask rgba-stylish-light flex-center">
-	                <div class="container">
-	                    <div class="text-center wow fadeInUp">
-	                        <h1>大餅去亞庇</h1>
-	                        <div class="container">
-					                	<div class="card card-body">
-															<h4 class="card-title">即時匯率</h4>
-																<p class="card-text">
-																  <span class="myr">1 MYR = </span><span class="twd"></span>
-																</p>
-					                </div>	                        
-												</div>
-	                    </div>
-	                </div>	                
-	            </div>
-	        </div>
-	    </div>
-
-	</header>
 	<!--Main Navigation-->
+	<div class="container">
+		<h1>這是地圖</h1>
+	</div>
 
-	<!--Main Layout-->
-	<main class="my-5">
+	<!--Google map-->
+	<div id="map" class="container">
+		<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1K3q9KvEqvHuz15PzVHVODuTIE_XuGc0P" width="1080" height="720"></iframe>
+	</div>
 
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-md-12">
-
-	                <p align="justify">
-	                	<i class="fas fa-exclamation"></i> 注意事項:
-	                	<ul>
-	                		<li>電壓220伏特，特別的是用”四方三腳的英式插頭”<br>
-	                			*帶萬國轉接頭！！使用UK的～長得最奇怪的那一邊就是XDD
-	                		</li>
-	                		<li>
-	                			SIM卡：DiGi網卡
-	                			<ul>
-	                				<li>可以先在台灣買或是到亞庇機場買，但我個人建議是可以先上KKday買好</li>
-	                				<li>因為一般在沙巴當地購買約28馬幣，美金6.5左右，在KKday購買只要6.5美金（台幣200元內）而且在KKday買的網卡是已經開卡完成的，只要直接換上就可以使用，不用到當地購買還要跟業者溝通很麻煩又花時間。</li>
-	                			</ul>
-	                		</li>
-	                	</ul>
-	                </p>
-
-	            </div>
-	        </div>
-	    </div>
-
-	</main>
-	<!--Main Layout-->
 
 
 	<!-- JQuery -->
@@ -111,6 +66,6 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<!-- MDB core JavaScript -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
-	<script type="text/javascript" src="assets/js/index.js"></script>
+	<script type="text/javascript" src="assets/js/map.js"></script>
 </body>
 </html>

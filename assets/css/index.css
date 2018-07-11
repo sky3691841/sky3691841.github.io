@@ -1,5 +1,5 @@
 .view {
-    background: url("http://s15.sinaimg.cn/mw690/002QLAZTzy73GRAmyVE6e&690")no-repeat center center;
+    background: url("https://www.natgeomedia.com/wp-content/uploads/2015/07/1s1.jpg")no-repeat center center;
     background-size: cover;
 }
 
@@ -13,6 +13,7 @@
 h1 {
 	font-size: 4em;
 	color: white;
+    font-weight: 400;
 }
 
 .card-body {
